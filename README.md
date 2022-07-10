@@ -17,8 +17,8 @@ A Blog API built with Ruby on Rails.
 To setup this project:
 
 ```bash
-  git clone https://github.com/Prabesht7/BlogAPI-Project.git
-  cd BlogAPI-Project
+  git clone https://github.com/Prabesht7/Blog-API-Rails.git
+  cd Blog-API-Rails
 ```
 
 To install gem with:
@@ -56,11 +56,14 @@ To start server:
 | `PUT` | `/posts/:post_id` | To update a Post |
 | `GET` | `/posts` | To show all Post |
 | `Delete` | `/posts/:post_id` | To delete a Post |
+| `POST` | `/comments` | To create a Comment |
+| `PUT` | `/comments/:comment_id` | To update a Comment |
+| `GET` | `/comments` | To show all Comments |
+| `Delete` | `/comments/:comments_id` | To delete a Comment |
 
 
 
 ## Feedback
 
 If you have any feedback, please reach out to at numb1prabesht7@gmail.com
-
 
