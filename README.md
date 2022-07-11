@@ -112,6 +112,14 @@ To start server:
 
 ![DELETE Method](https://i.ibb.co/ZdX67BH/Comment-DELETE.png)
 
+### To show Comments from a particular/selected post
+
+- GET method snapshot of `Postman` to show comments from a particular/selected post.
+- Path: `http://localhost:3000/posts/36`
+
+![GET method](https://i.ibb.co/0rDy591/Specific-Comment.png)
+
+
 ## Feedback
 
 If you have any feedback, please reach out to at numb1prabesht7@gmail.com
