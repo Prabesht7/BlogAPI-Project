@@ -112,12 +112,21 @@ To start server:
 
 ![DELETE Method](https://i.ibb.co/ZdX67BH/Comment-DELETE.png)
 
-### To show Comments from a particular/selected post
+## To show Comments from a particular/selected post
 
-- GET method snapshot of `Postman` to show comments from a particular/selected post.
+#### To show both post and comments:
+
+- GET method snapshot of `Postman` to show post and comments at a same time.
 - Path: `http://localhost:3000/posts/36`
 
 ![GET method](https://i.ibb.co/0rDy591/Specific-Comment.png)
+
+#### To show only comments from a particular post:
+
+- GET method snapshot of `Postman` to show comments from a particular/selected post.
+- Path: `http://localhost:3000/posts/36/comments`
+
+![GET method](https://i.ibb.co/LzNNRmK/Comments-Specific.png)
 
 
 ## Feedback
